@@ -15,4 +15,6 @@ public interface List<T> {
     
     public T Find(Object cedula);
     
+    public T Showel(Object cargo);
+    
 }

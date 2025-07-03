@@ -52,6 +52,20 @@ public class Funcionario_lista implements List<Funcionario> {
             }
         }
         return null;
-    }   
+    }  
+    
+    @Override
+    public Funcionario Showel(Object cargo) {
+        int cont=0;
+        int max = Funcionario.length;
+        for (int i = 0; i < max; i++) {
+            if(Funcionario[i]==cargo){
+                cont++;
+            }
+        }
+        return null;
+        
+    }
+    
 }
 
