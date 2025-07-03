@@ -13,6 +13,6 @@ public interface List<T> {
     
     public boolean Delete(T t);
     
-    public T Find(Object id);
+    public T Find(Object cedula);
     
 }
